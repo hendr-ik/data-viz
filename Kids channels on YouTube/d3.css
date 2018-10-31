@@ -1,0 +1,97 @@
+/* WEB FONT -------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Krub:400,600);
+
+body {
+font-family: 'Krub', Helvetica, Arial, sans-serif;
+}
+
+/* STRUCTURE ------------------------------------- */
+#canvas {
+background-color: #37bc9b;
+display: flex;
+flex-flow: row;
+align-items: flex-start;
+}
+
+.spacer_left {
+display: flex;
+order: 0;
+flex-shrink: 4;
+}
+
+svg {
+display: flex;
+order: 1;
+flex-shrink: 0;
+}
+
+.spacer_right {
+display: flex;
+order: 2;
+flex-shrink: 2;
+}
+
+/* TYPO MENU ------------------------------------ */
+.menu_button_text {
+font-size: 20px;
+line-height: 1;
+font-weight: 400;
+}
+
+/* TYPO GFX ------------------------------------- */
+.gfx_bar_display {
+font-size: 20px;
+line-height: 1;
+font-weight: 600;
+}
+
+.gfx_bar_value {
+font-size: 20px;
+line-height: 1;
+font-weight: 600;
+}
+
+/* TYPO TEXT ------------------------------------- */
+.text_headline {
+font-size: 26px;
+letter-spacing: -0.25px;
+line-height: 1;
+font-weight: 400;
+}
+
+.text_source {
+font-size: 12px;
+line-height: 1;
+font-weight: 400;
+}
+
+
+/* MEDIA QUERIES --------------------------------- */
+@media screen and (max-width: 640px) {
+
+
+/* STRUCTURE ------------------------------------- */
+
+.spacer_left {
+width: 50px;
+height: 270px;
+}
+
+svg {
+width: 270px;
+height: 270px;
+}
+
+.spacer_right {
+width: 50px;
+height: 270px;
+}
+.container_margin {
+transform: scale(0.5) translate(20px, 20px);
+}
+
+.layout_group {
+transform: scale(0.5);
+}
+
+}
