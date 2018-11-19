@@ -23,18 +23,18 @@ text_headline_2: "Kids channels on YouTube / subscriptions",
 text_headline_3: "Kids channels on YouTube / uploads",
 text_source: "Source: Social Blade, October 16, 2018",
 // ----------------------------------------------------------
-color_svg: "#37bc9b",
-color_layout_display: "#fff",
-color_layout_stroke: "#009973",
-color_bar_1: "#fff", color_bar_display_1: "#2e2f33",
-color_bar_2: "#fff", color_bar_display_2: "#2e2f33",
-color_bar_3: "#fff", color_bar_display_3: "#2e2f33",
-color_button_stroke: "#009973",
-color_button_on: "#009973",
-color_button_off: "#37bc9b",
+color_svg: "#f9f4ef", // background
+color_layout_display: "#ff8e4b", // label bars
+color_layout_stroke: "#f2e8df", // layout lines
+color_bar_1: "#ffc19c", color_bar_display_1: "#2e2f33", // bars layer 1
+color_bar_2: "#ffc19c", color_bar_display_2: "#2e2f33", // bars layer 2
+color_bar_3: "#ffc19c", color_bar_display_3: "#2e2f33", // bars layer 3
+color_button_stroke: "#19ab86",
+color_button_on: "#19ab86",
+color_button_off: "#5ad0b2",
 color_button_text: "#fff",
-color_text_headline: "#fff",
-color_text_source: "#009973"
+color_text_headline: "#2e2f33",
+color_text_source: "#e4cfbb"
 };
 
 // ----------------------------------------------------------

@@ -7,7 +7,7 @@ font-family: 'Krub', Helvetica, Arial, sans-serif;
 
 /* STRUCTURE ------------------------------------- */
 #canvas {
-background-color: #37bc9b;
+background-color: #f9f4ef;
 display: flex;
 flex-flow: row;
 align-items: flex-start;
