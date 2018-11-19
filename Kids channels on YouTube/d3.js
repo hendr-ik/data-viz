@@ -32,7 +32,8 @@ color_bar_3: "#ffc19c", color_bar_display_3: "#2e2f33", // bars layer 3
 color_button_stroke: "#19ab86",
 color_button_on: "#19ab86",
 color_button_off: "#5ad0b2",
-color_button_text: "#fff",
+color_button_text_on: "#2e2f33",
+color_button_text_off: "#fff",
 color_text_headline: "#2e2f33",
 color_text_source: "#e4cfbb"
 };
@@ -44,21 +45,21 @@ temp: "button_1",
 display: "views",
 x: 0,
 y: 455,
-width: 80,
+width: 82,
 height: 40
 },
 {
 temp: "button_2",
 display: "subscriptions",
-x: 90,
+x: 92,
 y: 455,
-width: 155,
+width: 159,
 height: 40
 },
 {
 temp: "button_3",
 display: "uploads",
-x: 255,
+x: 261,
 y: 455,
 width: 105,
 height: 40
@@ -196,7 +197,7 @@ var button = menu_group.selectAll(".menu_button")
 .attr("x", function (d) { return 15 + d.x; })
 .attr("y", function (d) { return 27 + d.y; })
 .text( function (d) { return d.display; })
-.style("fill", data_set.color_button_text);
+.style("fill", data_set.color_button_text_off);
 
 // create menu button active
 var button = menu_group.selectAll(".menu_button")
@@ -210,6 +211,10 @@ var button = menu_group.selectAll(".menu_button")
 .attr("height", function (d) { return 10 + d.height; })
 .attr("opacity", 0);
 
+// give id to button text
+d3.selectAll(".menu_button_text")
+.data(data_menu)
+.attr("id", function (d) { return d.temp + "_t";  });
 
 // give id to button rect
 d3.selectAll(".menu_button_rect")
@@ -280,7 +285,7 @@ gfx_layout.append("rect")
 .attr("class", "gfx_bar_stroke")
 .attr("x", 20)
 // trim yScale from all decimal digits and add adjust
-.attr("y", function(d) {return 45 + Number( d3.format(".0f")(yScale(d.temp))  );})
+.attr("y", function(d) {return 44 + Number( d3.format(".0f")(yScale(d.temp))  );})
 .attr("height", 2)
 .attr("width", 500)
 .style("fill", data_set.color_layout_stroke);
@@ -362,9 +367,10 @@ gfx_bar.append("text")
 // ----------------------------------------------------------
 // ANIMATION "button_1"
 // ----------------------------------------------------------
-d3.select("#button_1_r")
 // set button colors ----------------------------------------
-.style("fill", data_set.color_button_on);
+d3.select("#button_1_r").style("fill", data_set.color_button_on);
+// set button text colors -----------------------------------
+d3.select("#button_1_t").style("fill", data_set.color_button_text_on);
 // switch out -----------------------------------------------
 d3.select(".gfx_layer_2").attr("opacity", 0);
 d3.selectAll(".gfx_layer_2 .gfx_bar .gfx_bar_rect").attr("width", 0);
@@ -383,6 +389,9 @@ d3.select("#button_2_a")
 // set button colors ----------------------------------------
 d3.select("#button_1_r").style("fill",  data_set.color_button_off);
 d3.select("#button_2_r").style("fill", data_set.color_button_on);
+// set button text colors -----------------------------------
+d3.select("#button_1_t").style("fill",  data_set.color_button_text_off);
+d3.select("#button_2_t").style("fill", data_set.color_button_text_on);
 // switch out -----------------------------------------------
 d3.select(".gfx_layer_1").attr("opacity", 0);
 // make sure its allways width = 0
@@ -404,6 +413,9 @@ d3.select(".text_headline").text(data_set.text_headline_2);
 // set button colors ----------------------------------------
 d3.select("#button_2_r").style("fill", data_set.color_button_off);
 d3.select("#button_1_r").style("fill", data_set.color_button_on);
+// set button text colors -----------------------------------
+d3.select("#button_2_t").style("fill", data_set.color_button_text_off);
+d3.select("#button_1_t").style("fill", data_set.color_button_text_on);
 // switch out -----------------------------------------------
 d3.select(".gfx_layer_2").attr("opacity", 0);
 // make sure its allways width = 0
@@ -431,6 +443,9 @@ d3.select("#button_3_a")
 // set button colors ----------------------------------------
 d3.select("#button_1_r").style("fill", data_set.color_button_off);
 d3.select("#button_3_r").style("fill", data_set.color_button_on);
+// set button text colors -----------------------------------
+d3.select("#button_1_t").style("fill", data_set.color_button_text_off);
+d3.select("#button_3_t").style("fill", data_set.color_button_text_on);
 // switch out -----------------------------------------------
 d3.select(".gfx_layer_1").attr("opacity", 0);
 // make sure its allways width = 0
@@ -452,6 +467,9 @@ d3.select(".text_headline").text(data_set.text_headline_3);
 // set button colors ----------------------------------------
 d3.select("#button_3_r").style("fill", data_set.color_button_off);
 d3.select("#button_1_r").style("fill", data_set.color_button_on);
+// set button text colors -----------------------------------
+d3.select("#button_3_t").style("fill", data_set.color_button_text_off);
+d3.select("#button_1_t").style("fill", data_set.color_button_text_on);
 // switch out -----------------------------------------------
 d3.select(".gfx_layer_3").attr("opacity", 0);
 // make sure its allways width = 0
