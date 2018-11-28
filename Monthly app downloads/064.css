@@ -1,0 +1,102 @@
+/* STRUCTURE ------------------------------------- */
+#canvas_064,
+#canvas_063 {
+background-color: #f9f4ef;
+display: flex;
+flex-flow: row;
+align-items: flex-start;
+}
+
+.spacer_left {
+display: flex;
+order: 0;
+flex-shrink: 4;
+}
+
+svg {
+display: flex;
+order: 1;
+flex-shrink: 0;
+}
+
+.spacer_right {
+display: flex;
+order: 2;
+flex-shrink: 2;
+}
+
+/* TYPO MENU ------------------------------------ */
+.menu_button_text {
+font-size: 20px;
+line-height: 1;
+font-weight: 600;
+}
+
+/* TYPO GFX ------------------------------------- */
+/* 064 */
+.tick {
+font-size: 12px;
+}
+
+.label {
+font-size: 20px;
+font-weight: 600;
+}
+
+/* 063 */
+.gfx_bar_display {
+font-size: 20px;
+line-height: 1;
+font-weight: 600;
+}
+
+.gfx_bar_value {
+font-size: 20px;
+line-height: 1;
+font-weight: 600;
+}
+
+/* TYPO TEXT ------------------------------------- */
+.text_headline {
+font-size: 26px;
+letter-spacing: -0.25px;
+line-height: 1;
+font-weight: 400;
+}
+
+.text_source {
+font-size: 12px;
+line-height: 1;
+font-weight: 400;
+}
+
+
+/* MEDIA QUERIES --------------------------------- */
+/* ----------------------------------------------- */
+@media screen and (max-width: 640px) {
+
+/* STRUCTURE ------------------------------------- */
+
+.spacer_left {
+width: 50px;
+height: 270px;
+}
+
+svg {
+width: 270px;
+height: 270px;
+}
+
+.spacer_right {
+width: 50px;
+height: 270px;
+}
+.container_margin {
+transform: scale(0.5) translate(20px, 20px);
+}
+
+.layout_group {
+transform: scale(0.5);
+}
+
+}
