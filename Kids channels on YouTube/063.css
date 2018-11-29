@@ -1,12 +1,10 @@
-/* WEB FONT -------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Krub:400,600);
+/* D3 -------------------------------------------------------
+-------------------------------------------------------------
+------------------------------------------------------------- */
 
-body {
-font-family: 'Krub', Helvetica, Arial, sans-serif;
-}
-
-/* STRUCTURE ------------------------------------- */
-#canvas {
+/* Structure */
+#canvas_064,
+#canvas_063 {
 background-color: #f9f4ef;
 display: flex;
 flex-flow: row;
@@ -31,27 +29,42 @@ order: 2;
 flex-shrink: 2;
 }
 
-/* TYPO MENU ------------------------------------ */
-.menu_button_text {
+/* Typo */
+/* Typo Menu */
+/* 063 */
+.button {
 font-size: 20px;
 line-height: 1;
 font-weight: 600;
 }
 
-/* TYPO GFX ------------------------------------- */
-.gfx_bar_display {
+/* Typo GFX */
+/* 064 */
+.tick {
+font-size: 12px;
+}
+
+.label {
+font-size: 20px;
+font-weight: 600;
+}
+
+/* 063 */
+.bar_display {
 font-size: 20px;
 line-height: 1;
 font-weight: 600;
 }
 
-.gfx_bar_value {
+.bar_value {
 font-size: 20px;
 line-height: 1;
 font-weight: 600;
 }
 
-/* TYPO TEXT ------------------------------------- */
+/* Typo Text */
+/* 063 */
+/* 064 */
 .text_headline {
 font-size: 26px;
 letter-spacing: -0.25px;
@@ -60,17 +73,13 @@ font-weight: 400;
 }
 
 .text_source {
-font-size: 16px;
+font-size: 12px;
 line-height: 1;
 font-weight: 400;
 }
 
-
-/* MEDIA QUERIES --------------------------------- */
+/* D3 Media Queries */
 @media screen and (max-width: 640px) {
-
-
-/* STRUCTURE ------------------------------------- */
 
 .spacer_left {
 width: 50px;
