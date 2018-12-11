@@ -7,3 +7,5 @@ Nickelodeon / Sesame Street / ChuChu TV / BillionSurpriseToys / LooLoo Kids
 Data source: Social Blade, October 16, 2018
 
 Original post: http://niefeld.com/us-influence-on-kids-entertainment-ends/
+
+Codepen: https://codepen.io/hendr_ik/pen/wRBVeN
