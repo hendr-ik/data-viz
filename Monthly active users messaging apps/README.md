@@ -6,6 +6,6 @@ A comparison of WhatsApp, Facebook Messenger, WeChat, QQ Mobile, Skype, Viber, L
 
 Data source: Statista 2018, Company press releases 2013
 
-Original post: http://niefeld.com/
+Original post: http://niefeld.com/censorship-individual-content-recommendation/
 
 Codepen: https://codepen.io/hendr_ik/pen/roedRv
