@@ -18,9 +18,9 @@ position_headline: 25,
 position_source: 430,
 position_menu: 480,
 // ----------------------------------------------------------
-text_headline_1: "Kids channels on YouTube / views",
-text_headline_2: "Kids channels on YouTube / subscriptions",
-text_headline_3: "Kids channels on YouTube / uploads",
+text_headline_1: "Kids Channels on YouTube / Views",
+text_headline_2: "Kids Channels on YouTube / Subscriptions",
+text_headline_3: "Kids Channels on YouTube / Uploads",
 text_source: "Source: Social Blade, October 16, 2018",
 // ----------------------------------------------------------
 color_svg: "#f9f4ef", // background

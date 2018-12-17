@@ -1,6 +1,6 @@
-<h1>Monthly active users selected mobile messaging apps</h1>
+<h1>Monthly Active Users Selected Mobile Messaging Apps</h1>
 
-<h2>2013 vs. 2018</h2>
+<h2>2013 - 2018</h2>
 
 A comparison of WhatsApp, Facebook Messenger, WeChat, QQ Mobile, Skype, Viber, Line
 

@@ -14,8 +14,8 @@ position_headline: 25,
 position_source: 500,
 position_menu: 480,
 // ----------------------------------------------------------
-text_headline: "Monthly active users",
-text_subheadline: "Worldwide / in millions",
+text_headline: "Monthly Active Users",
+text_subheadline: "2013 - 2018 / in millions",
 text_source: "Source: Statista 2018, Company press releases 2013",
 // ----------------------------------------------------------
 color_bg: "#f9f4ef",

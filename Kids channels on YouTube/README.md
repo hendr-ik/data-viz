@@ -1,4 +1,4 @@
-<h1>Kids' entertainment channels on YouTube</h1>
+<h1>Kids' Entertainment Channels on YouTube</h1>
 
 <h2>A comparison of views, subscriptions and uploads</h2>
 
