@@ -1,6 +1,6 @@
 <h1>Instagram Users</h1>
 
-<h2>Top 10 Countries MAU, 2018 / MAU Worldwide 2010 - 2018</h2>
+<h2>MAU, Top 10 Countries, 2018 / MAU, Worldwide, 2010 - 2018</h2>
 
 Bubble map and bar chart
 
